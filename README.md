@@ -1,4 +1,6 @@
-# AgriAssist: Smart Agriculture App
+# AgriAssist: A Mobile-Based Support Tool and Information
+
+
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/ragnvindr08/AgriAssistApp/refs/heads/master/Annotation%202025-06-26%20033207.png" alt="App Screenshot 1" width="600">
