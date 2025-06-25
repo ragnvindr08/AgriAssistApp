@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "46683825304",
+    "firebase_url": "https://agriassist-b43c0-default-rtdb.firebaseio.com",
+    "project_id": "agriassist-b43c0",
+    "storage_bucket": "agriassist-b43c0.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:46683825304:android:59a11e605ed5581299dced",
+        "android_client_info": {
+          "package_name": "com.example.bsitfinalmobapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "46683825304-nn2lcecdrraelu3uo8k3gfskp8mqi8e7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPa5K7vS3HtmMGNoz37i0XlrnMFJj0j58"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "46683825304-nn2lcecdrraelu3uo8k3gfskp8mqi8e7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

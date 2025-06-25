@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="editTextSearchProvince" type="id" />
+    <item name="recyclerMarketPrices" type="id" />
+    <item name="marketChart" type="id" />
+    <item name="searchCrop" type="id" />
+</resources>

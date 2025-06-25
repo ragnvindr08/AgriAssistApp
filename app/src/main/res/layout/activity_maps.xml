@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        tools:ignore="WebViewLayout">
+
+        <!-- Map Logo/Image -->
+        <ImageView
+            android:id="@+id/map_logo"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="24dp"
+            android:src="@drawable/maplogo"
+            android:contentDescription="Map Logo" />
+
+        <!-- Title Text -->
+        <TextView
+            android:id="@+id/title_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="12dp"
+            android:fontFamily="@font/agbalumo"
+            android:padding="8dp"
+            android:text="Agricultural Map of Philippine Provinces"
+            android:textColor="#42A5F5"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <!-- Province Selector -->
+        <Spinner
+            android:id="@+id/province_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@android:drawable/btn_dropdown"
+            android:backgroundTint="#FFFFFF"
+            android:padding="12dp" />
+
+        <!-- WebView for Google Maps -->
+        <WebView
+            android:id="@+id/map_webview"
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:layout_marginTop="16dp"
+            android:focusable="true"
+            android:clickable="true" />
+
+        <TextView
+            android:id="@+id/crop_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="#E3F2FD"
+            android:backgroundTint="#00AF4545"
+            android:fontFamily="sans-serif"
+            android:padding="12dp"
+            android:text="Select a province to view crop information."
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:visibility="visible" />
+
+
+    </LinearLayout>
+</ScrollView>

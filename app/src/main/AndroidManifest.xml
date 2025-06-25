@@ -1,0 +1,101 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Internet access for weather API -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-sdk tools:overrideLibrary="com.google.firebase.auth.ktx" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BSITFinalMobapp"
+        tools:targetApi="31">
+
+        <!-- Auth Screens -->
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".RegisterActivity" android:exported="false" />
+
+        <!-- Main screen (after login) -->
+        <activity android:name=".MainActivity" android:exported="false" />
+
+        <!-- Feature screens -->
+        <activity android:name=".WeatherActivity" android:exported="false" />
+        <activity android:name=".CropGuideActivity" android:exported="false" />
+        <activity android:name=".MarketActivity" android:exported="false" />
+        <activity android:name=".ChatbotActivity" android:exported="false" />
+        <activity android:name=".ForumActivity" android:exported="false" />
+        <activity android:name=".AnalyticsActivity" android:exported="false" />
+        <activity android:name=".MapsActivity" android:exported="false" />
+        <activity android:name=".ReportsActivity" android:exported="false" />
+        <activity android:name=".SourcesActivity" android:exported="false" />
+
+        <!-- Optional: preloaded fonts -->
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+</manifest>
+
+
+
+    <!--<manifest xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:tools="http://schemas.android.com/tools">-->
+
+<!--    &lt;!&ndash; Internet access for weather API &ndash;&gt;-->
+<!--    <uses-permission android:name="android.permission.INTERNET" />-->
+
+<!--    <application-->
+<!--        android:allowBackup="true"-->
+<!--        android:dataExtractionRules="@xml/data_extraction_rules"-->
+<!--        android:fullBackupContent="@xml/backup_rules"-->
+<!--        android:icon="@mipmap/ic_launcher"-->
+<!--        android:label="@string/app_name"-->
+<!--        android:roundIcon="@mipmap/ic_launcher_round"-->
+<!--        android:supportsRtl="true"-->
+<!--        android:theme="@style/Theme.BSITFinalMobapp"-->
+<!--        tools:targetApi="31">-->
+
+<!--        &lt;!&ndash; Weather screen &ndash;&gt;-->
+<!--        <activity android:name=".WeatherActivity" />-->
+<!--        <activity android:name=".CropGuideActivity" />-->
+<!--        <activity android:name=".MarketActivity" />-->
+
+<!--        <activity android:name=".ChatbotActivity" />-->
+
+<!--        <activity android:name=".LoginActivity">-->
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
+<!--        </activity>-->
+<!--        <activity android:name=".MainActivity"/>-->
+<!--        <activity android:name=".RegisterActivity"/>-->
+
+<!--        &lt;!&ndash; Main screen (launcher) &ndash;&gt;-->
+<!--        <activity-->
+<!--            android:name=".MainActivity"-->
+<!--            android:exported="true">-->
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
+<!--        </activity>-->
+<!--        <meta-data-->
+<!--            android:name="preloaded_fonts"-->
+<!--            android:resource="@array/preloaded_fonts" />-->
+
+<!--    </application>-->
+<!--</manifest>-->

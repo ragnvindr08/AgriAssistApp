@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- 🌿 Scrollable Content -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/mainContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="100dp"
+            android:background="#FFFFFF">
+
+            <!-- 🌾 Top Logo -->
+            <ImageView
+                android:id="@+id/topImage"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="16dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/logo1"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <!-- Logout Button -->
+            <Button
+                android:id="@+id/btnLogout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#769CCC65"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:text="Logout"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <!-- 🌱 Title -->
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/agbalumo"
+                android:text="AgriAssist"
+                android:textColor="#9CCC65"
+                android:textSize="34sp"
+                app:layout_constraintTop_toBottomOf="@id/topImage"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <!-- 🌀 Loading GIF -->
+            <ImageView
+                android:id="@+id/loadingGif"
+                android:layout_width="310dp"
+                android:layout_height="242dp"
+                android:layout_marginTop="16dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/farmer"
+                app:layout_constraintTop_toBottomOf="@id/textView"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <!-- 🧠 Assistant Label -->
+            <TextView
+                android:id="@+id/assistantLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/agbalumo"
+                android:text="&quot;Love Farmer Agriculture&quot;"
+                android:textColor="#9CCC65"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintTop_toBottomOf="@id/loadingGif"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <!-- ✅ User Email -->
+            <TextView
+                android:id="@+id/tvUserEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="Logged in as:"
+                android:textColor="#616161"
+                android:textSize="14sp"
+                android:fontFamily="@font/agbalumo"
+                app:layout_constraintTop_toBottomOf="@id/assistantLabel"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <!-- 🔘 Buttons Section -->
+            <Button
+                android:id="@+id/btnWeather"
+                android:layout_width="360dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="24dp"
+                android:backgroundTint="#26C6DA"
+                android:fontFamily="@font/agbalumo"
+                android:text="Weather Forecast"
+                app:layout_constraintTop_toBottomOf="@id/tvUserEmail"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <Button
+                android:id="@+id/btnCropGuide"
+                android:layout_width="360dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="12dp"
+                android:backgroundTint="#CA911A"
+                android:fontFamily="@font/agbalumo"
+                android:text="Crop Guide"
+                app:layout_constraintTop_toBottomOf="@id/btnWeather"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <Button
+                android:id="@+id/btnMarket"
+                android:layout_width="360dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="12dp"
+                android:backgroundTint="#FF8A65"
+                android:fontFamily="@font/agbalumo"
+                android:text="Market Prices"
+                app:layout_constraintTop_toBottomOf="@id/btnCropGuide"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <Button
+                android:id="@+id/btnForum"
+                android:layout_width="360dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="12dp"
+                android:backgroundTint="#8BC34A"
+                android:fontFamily="@font/agbalumo"
+                android:text="Farmer Forum"
+                app:layout_constraintTop_toBottomOf="@id/btnMarket"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <Button
+                android:id="@+id/btnAnalytics"
+                android:layout_width="360dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="12dp"
+                android:backgroundTint="#FB8C00"
+                android:fontFamily="@font/agbalumo"
+                android:text="Analytics"
+                app:layout_constraintTop_toBottomOf="@id/btnForum"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <Button
+                android:id="@+id/btnMap"
+                android:layout_width="360dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="12dp"
+                android:backgroundTint="#42A5F5"
+                android:fontFamily="@font/agbalumo"
+                android:text="Map"
+                app:layout_constraintTop_toBottomOf="@id/btnAnalytics"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <Button
+                android:id="@+id/btnReports"
+                android:layout_width="360dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="12dp"
+                android:backgroundTint="#9E9D24"
+                android:fontFamily="@font/agbalumo"
+                android:text="Reports Generation"
+                app:layout_constraintTop_toBottomOf="@id/btnMap"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <Button
+                android:id="@+id/btnSources"
+                android:layout_width="360dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="12dp"
+                android:backgroundTint="#66BB6A"
+                android:fontFamily="@font/agbalumo"
+                android:text="Updated Sources"
+                app:layout_constraintTop_toBottomOf="@id/btnReports"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+
+
+            <!-- ℹ️ Info Text -->
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+    <!-- Floating Chat Button -->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabChat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="16dp"
+        android:contentDescription="Open AgriAssist Chat"
+        android:src="@drawable/logo1"
+        app:backgroundTint="#AED581" />
+</FrameLayout>

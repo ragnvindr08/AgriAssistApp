@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Top Logo -->
+    <ImageView
+        android:id="@+id/topImage"
+        android:layout_width="123dp"
+        android:layout_height="120dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:contentDescription="Top Logo"
+        android:scaleType="centerInside"
+        android:src="@drawable/logo1" />
+
+    <!-- Title -->
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/topImage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:background="@null"
+        android:fontFamily="@font/agbalumo"
+        android:gravity="center"
+        android:inputType="text"
+        android:padding="8dp"
+        android:text="AgriAssist Guide"
+        android:textColor="#9CCC65"
+        android:textSize="24sp" />
+
+    <!-- Chat Scroll Area -->
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="737dp"
+        android:layout_above="@+id/editTextLayout"
+        android:layout_below="@id/editTextText"
+        android:layout_marginTop="9dp"
+        android:layout_marginBottom="19dp"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:id="@+id/chatBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+    <!-- Input Layout -->
+    <LinearLayout
+        android:id="@+id/editTextLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="80dp"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_weight="1"
+            android:background="@android:drawable/editbox_background"
+            android:backgroundTint="#F6F3F3"
+            android:fontFamily="@font/agbalumo"
+            android:hint="Ask something..."
+            android:padding="12dp"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/sendButton"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:backgroundTint="#9CCC65"
+            android:text="Send"
+            android:textColor="#FFF" />
+    </LinearLayout>
+
+    <!-- Back Button -->
+    <Button
+        android:id="@+id/btnBackHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#40C4FF"
+        android:fontFamily="sans-serif"
+        android:text="Home"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+</RelativeLayout>

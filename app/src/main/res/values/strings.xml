@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">BSITFinalMobapp</string>
+
+    <!-- Default Web Client ID (for Google Sign-In) -->
+    <string name="default_web_client_id">46683825304-abc123xyz.apps.googleusercontent.com</string>
+
+
+    <!-- Province Spinner Options -->
+    <string-array name="provinces_array">
+        <item>All</item>
+        <item>Ilocos Norte</item>
+        <item>Pampanga</item>
+        <item>Davao del Norte</item>
+    </string-array>
+
+    <!-- Chart Type Spinner Options -->
+    <string-array name="chart_type_array">
+        <item>Bar</item>
+        <item>Line</item>
+        <item>Pie</item>
+    </string-array>
+</resources>
+
+
+
+    <!--<resources>-->
+<!--    <string name="app_name">BSITFinalMobapp</string>-->
+<!--    <string-array name="provinces_array">-->
+<!--        <item>All</item>-->
+<!--        <item>Ilocos Norte</item>-->
+<!--        <item>Pampanga</item>-->
+<!--        <item>Davao del Norte</item>-->
+<!--    </string-array>-->
+
+<!--    <string-array name="chart_type_array">-->
+<!--        <item>Bar</item>-->
+<!--        <item>Line</item>-->
+<!--        <item>Pie</item>-->
+<!--    </string-array>-->
+
+<!--</resources>-->
