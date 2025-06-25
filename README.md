@@ -28,7 +28,7 @@ AgriAssist is an innovative Android application designed to empower Filipino far
   Search for specific crop prices or weather data based on province or crop type for more targeted insights.
 
   <div align="center">
-  <img src=" https://raw.githubusercontent.com/ragnvindr08/AgriAssistApp/refs/heads/master/45dc8486-265e-45e3-bc48-dbf01256220c.jpg" alt="App Screenshot" width="600">
+  <img src="https://raw.githubusercontent.com/ragnvindr08/AgriAssistApp/refs/heads/master/45dc8486-265e-45e3-bc48-dbf01256220c.jpg" alt="App Screenshot 2" width="600">
 </div>
 
  
