@@ -3,7 +3,7 @@
 <div align="center">
   <img src="https://raw.githubusercontent.com/ragnvindr08/AgriAssistApp/refs/heads/master/Annotation%202025-06-26%20033207.png" alt="App Screenshot 1" width="600">
   <br><br>
-  <img src="https://raw.githubusercontent.com/ragnvindr08/AgriAssistApp/refs/heads/master/45dc8486-265e-45e3-bc48-dbf01256220c.jpg" alt="App Screenshot 2" width="600">
+  
 </div>
 
 AgriAssist is an innovative Android application designed to empower Filipino farmers with smart tools and real-time agricultural information. With a clean and user-friendly interface, the app aims to improve decision-making, productivity, and market awareness in the agricultural sector.
@@ -11,7 +11,7 @@ AgriAssist is an innovative Android application designed to empower Filipino far
 ## 🧭 Main Features Overview
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/ragnvindr08/AgriAssistApp/refs/heads/master/d70bc1b7-db44-4171-827c-184625b8c0f1.png" alt="Main Feature Menu" width="300">
+  <img src="https://raw.githubusercontent.com/ragnvindr08/AgriAssistApp/refs/heads/master/45dc8486-265e-45e3-bc48-dbf01256220c.jpg" alt="App Screenshot 2" width="600">
 </div>
 
 ### 🔹 Weather Forecast
