@@ -21,19 +21,19 @@ Provides accurate and real-time weather updates tailored for agricultural planni
 Offers detailed planting, care, and harvesting guides for various crops grown in the Philippines, based on best agricultural practices.
 
 ### 📈 Market Prices
-Displays daily crop price updates from top agricultural provinces to help farmers make informed selling decisions.
+Displays daily crop price updates from top agricultural provinces to help farmers make informed selling decisions and graphs.
 
 ### 🗣️ Farmer Forum
 A discussion space for farmers to share insights, ask questions, and learn from one another—community-driven agricultural learning.
 
 ### 📊 Analytics
-Visual tools and graphs to help track trends in weather, pricing, and farm performance for data-driven decision-making.
+Visualize the graph of Crop distribution.
 
 ### 🗺️ Map
-Interactive map showing nearby farming supply stores, marketplaces, agricultural offices, and climate zones.
+Interactive map showing Agricultural City.
 
 ### 📝 Reports Generation
-Generates downloadable reports summarizing farm activities, crop prices, and weather trends—useful for record-keeping and presentations.
+reports summarizing farm activities, crop prices, and weather trends—useful for record-keeping.
 
 ### 📚 Updated Sources
 Provides links to up-to-date government bulletins, research, and policy guidelines relevant to agriculture and food security.
@@ -54,24 +54,32 @@ Provides links to up-to-date government bulletins, research, and policy guidelin
   <img src="https://raw.githubusercontent.com/ragnvindr08/AgriAssistApp/refs/heads/master/8ea0dac2-124e-4f71-9c53-cc2c8bc46fde.jpg" width="200" style="margin: 10px;">
 </div>
 
-> ℹ️ Replace the image URLs (`https://via.placeholder.com/...`) with the actual links to your 9 screenshots in your GitHub repo.
 
----
+## Demo Video
+Click the link to watch https://youtu.be/isGAerr6FmI
 
-## 🌱 Target Users
+## Researcher/Developer:
+* Caspe, John Steven I.
+* Torres, Ronald Airon
+* Lecaros, Brix Aljon
+* Bernal, Lord Justin
 
-- Small to medium-scale Filipino farmers  
-- Agricultural students and researchers  
-- Government and non-government agriculture support groups
+## Adviser: 
+* Jefferson A. Costales
+  
+* collaborator: jeffcostales@gmail.com
 
-## 📱 Technologies Used
+## School Name:
+Eulogio "Amang" Rodriguez Insitute of Science and Technology
 
-- **Android Studio (Kotlin)**
-- **WeatherAPI** – for live weather data
-- **Node.js + MySQL** – custom backend for crop pricing
-- **Firebase** – for user data and analytics
-- **RecyclerView, WebView** – for UI content display
+Nagtahan, Sampaloc, Manila, Philippines
 
----
+College of Computer Science
 
-Let me know once you upload the actual 9 images so I can replace the placeholders with the correct links for you!
+IT Department
+
+## Course: 
+* Bachelor of Science in Information Technology
+
+## Date: 
+* June 26, 2025
