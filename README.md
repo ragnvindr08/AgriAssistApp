@@ -44,10 +44,10 @@ Provides links to up-to-date government bulletins, research, and policy guidelin
 
 <div align="center" style="display: flex; flex-wrap: wrap; justify-content: center;">
   <img src="https://via.placeholder.com/200x350?text=Image+1" width="200" style="margin: 10px;">
-  <img src="https://via.placeholder.com/200x350?text=Image+2" width="200" style="margin: 10px;">
-  <img src="https://via.placeholder.com/200x350?text=Image+3" width="200" style="margin: 10px;">
-  <img src="https://via.placeholder.com/200x350?text=Image+4" width="200" style="margin: 10px;">
-  <img src="https://via.placeholder.com/200x350?text=Image+5" width="200" style="margin: 10px;">
+  <img src="https://raw.githubusercontent.com/ragnvindr08/AgriAssistApp/refs/heads/master/b462a168-a79c-4093-b2f1-0b45a918559e.jpg" width="200" style="margin: 10px;">
+  <img src="https://raw.githubusercontent.com/ragnvindr08/AgriAssistApp/refs/heads/master/0524148d-abe1-4ca4-85f1-a421e001b5a6.jpg" width="200" style="margin: 10px;">
+  <img src="https://raw.githubusercontent.com/ragnvindr08/AgriAssistApp/refs/heads/master/3530ff4b-0528-4318-8b80-e0b9bcea5a12.jpg" width="200" style="margin: 10px;">
+  <img src="https://raw.githubusercontent.com/ragnvindr08/AgriAssistApp/refs/heads/master/385dd470-20ed-4f89-9a40-fab840365b48.jpg" width="200" style="margin: 10px;">
   <img src="https://via.placeholder.com/200x350?text=Image+6" width="200" style="margin: 10px;">
   <img src="https://via.placeholder.com/200x350?text=Image+7" width="200" style="margin: 10px;">
   <img src="https://via.placeholder.com/200x350?text=Image+8" width="200" style="margin: 10px;">
