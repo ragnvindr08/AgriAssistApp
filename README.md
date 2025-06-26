@@ -58,7 +58,7 @@ Provides links to up-to-date government bulletins, research, and policy guidelin
 
 
 ## Demo Video
-Click the link to watch https://pending
+Click the link to watch https://www.youtube.com/watch?v=1uBrI33uUt0
 
 ## Researcher/Developer:
 * Caspe, John Steven I.
